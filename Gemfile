@@ -14,6 +14,10 @@ gem 'rails_12factor', group: :production
 # Use Bootstrap for improving look and feel 
 gem 'bootstrap-sass'
 
+# Use Stripe for E-commerce payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
